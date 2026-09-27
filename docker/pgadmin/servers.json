@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "HtmlAnalyzer PostgreSQL",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "html_analyzer",
+      "Username": "postgres",
+      "SSLMode": "prefer",
+      "PassFile": "/var/lib/pgadmin/.pgpass"
+    }
+  }
+}

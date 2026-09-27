@@ -1,0 +1,50 @@
+# Build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet and local package output
+packages/
+*.nupkg
+*.snupkg
+
+# ASP.NET local settings and secrets
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+
+# Docker local data and credentials
+docker/postgres-data/
+docker/pgadmin-data/
+
+# Docker / environment overrides
+docker-compose.override.yml
+compose.override.yml
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
